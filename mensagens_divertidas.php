@@ -8,5 +8,15 @@
 
 	<body>
 		
+		<?php
+			echo 'Teste tag Padrao';
+		
+		?>
+
+		<?=
+			echo "Teste tag de impreessao";
+		?>
+
+
 	</body>
 </html>
