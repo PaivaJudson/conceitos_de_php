@@ -10,7 +10,6 @@
 		
 		<?php
 			echo 'Teste tag Padrao';
-		
 		?>
 
 		<?=
