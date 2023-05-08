@@ -13,9 +13,11 @@
 			print '<p>Teste de impressao com Print</p>';
 
 			$nome = "Judson Paiva";
-			$idade = 28;
+			$idade = 1000;
 			$preco_do_pc = 500000;
 			$vender_pc = false;
+
+			print "$nome tem $idade anos de idade, comprou o PC por $preco_do_pc. Vende? $vender_pc"
 		?>
 		
 		
