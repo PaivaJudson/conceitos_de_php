@@ -18,7 +18,7 @@
 			</div>
   			<div class="row">
     			<div class="col-md-4">
-    				<form role="form" action="catalogo_produtos.php" method="post">
+    				<form role="form" action="novo_arquivo.php" method="post">
 					  <div class="form-group">
 					    <label for="Produto">Nome do produto:</label>
 					    <select class="form-control" name="id_produto" id="id_produto">
@@ -35,11 +35,12 @@
     			<div class="col-md-4"></div>
   			</div>
 
+			<!--
+
 			<div class="row">
 				<h1>Detalhes do Produto</h1>
 			</div>
 
-			<!--
 			<div class="row">
 				<div class="col-md-4">
 					<?php
@@ -59,14 +60,25 @@
 				<div class="col-md-4">
 					<?php
 						// USANDO O MÉTODO POST
-						$id_produto = $_POST['id_produto'];
+						// $id_produto = $_POST['id_produto'];
 						
-						$detalhes[1] = "Detalhes das cadeiras";
-						$detalhes[2] = "Detalhes do fogao";
-						$detalhes[3] = "Detalhes do roteador";
-						$detalhes[4] = "Detalhes da TV";
+						// $detalhes[1] = "Detalhes das cadeiras";
+						// $detalhes[2] = "Detalhes do fogao";
+						// $detalhes[3] = "Detalhes do roteador";
+						// $detalhes[4] = "Detalhes da TV";
 
-						echo $detalhes[$id_produto];
+						// echo $detalhes[$id_produto];
+					?>
+
+					<?php
+					
+						// $id_produto = $_POST['id_produto'];
+						
+						// $detalhes[1] = "Detalhes das cadeiras";
+						// $detalhes[2] = "Detalhes do fogao";
+						// $detalhes[3] = "Detalhes do roteador";
+						// $detalhes[4] = "Detalhes da TV";
+					
 					?>
 				</div>
 			</div>
