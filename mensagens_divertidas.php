@@ -32,7 +32,18 @@
     			"A educação é a arma mais poderosa que você pode usar para mudar o mundo. - Nelson Mandela");
 			
 			print_r($mensagens);
+			print "<br /> <br />";
 			var_dump($mensagens);
+
+			$lista_ojectos = array(
+				'a' => 'Judson',
+				'b' => true,
+				 1  => "Judson Paiva",
+			);
+
+			print "<br /> <br />";
+			print "<br /> <br />";
+			var_dump($lista_ojectos);
 		?>
 		
 
