@@ -44,6 +44,49 @@
 			print "<br /> <br />";
 			print "<br /> <br />";
 			var_dump($lista_ojectos);
+
+			print "<br /> <br />";
+			print "<br /> <br />";
+
+			$tabela[8]['a'] = 'Torre Preta';
+			$tabela[8]['b'] = 'Bispo';
+			$tabela[8]['c'] = 'Cavalo Preto';
+			$tabela[8]['d'] = 'Rainha Preta';
+			$tabela[8]['e'] = 'Rei Preta';
+			$tabela[8]['f'] = 'Bispo Preto';
+			$tabela[8]['g'] = 'Cavalo Preto';
+			$tabela[8]['h'] = 'Torre Preta';
+
+			$tabela[7]['a'] = 'Peão Preto';
+			$tabela[7]['b'] = 'Peão Preto';
+			$tabela[7]['c'] = 'Peão Preto';
+			$tabela[7]['d'] = 'Peão Preto';
+			$tabela[7]['e'] = 'Peão Preto';
+			$tabela[7]['f'] = 'Peão Preto';
+			$tabela[7]['g'] = 'Peão Preto';
+			$tabela[7]['h'] = 'Peão Preto';
+
+		
+			$tabela[1]['a'] = 'Torre Preta';
+			$tabela[1]['b'] = 'Bispo';
+			$tabela[1]['c'] = 'Cavalo Preto';
+			$tabela[1]['d'] = 'Rainha Preta';
+			$tabela[1]['e'] = 'Rei Preta';
+			$tabela[1]['f'] = 'Bispo Preto';
+			$tabela[1]['g'] = 'Cavalo Preto';
+			$tabela[1]['h'] = 'Torre Preta';
+
+			$tabela[2]['a'] = 'Peão Preto';
+			$tabela[2]['b'] = 'Peão Preto';
+			$tabela[2]['c'] = 'Peão Preto';
+			$tabela[2]['d'] = 'Peão Preto';
+			$tabela[2]['e'] = 'Peão Preto';
+			$tabela[2]['f'] = 'Peão Preto';
+			$tabela[2]['g'] = 'Peão Preto';
+			$tabela[2]['h'] = 'Peão Preto';
+
+			print_r($tabela);
+
 		?>
 		
 
