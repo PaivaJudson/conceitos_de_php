@@ -86,6 +86,17 @@
 			$tabela[2]['h'] = 'Peão Preto';
 
 			print_r($tabela);
+			print "<br /> <br />";
+			print "<br /> <br />";
+
+
+			$alunos = array(
+				array("Joao", 10, "Angolano"),
+				array("Maria", 20, "Português"),
+				array("Armindo", 18, "Brasileiro")
+			);
+
+			print_r($alunos);
 
 		?>
 		
