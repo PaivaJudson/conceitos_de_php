@@ -16,4 +16,6 @@
         echo("Valor é numero");
     }
 
+    echo "Apenas verificando o Pull"
+
 ?>
