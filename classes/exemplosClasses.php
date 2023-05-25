@@ -2,7 +2,7 @@
 
      class Pessoa{
 
-        private $nome;
+        protected $nome;
         private $idade;
 
 
@@ -20,10 +20,41 @@
             $this->nome = $nome;
         }
 
+        public function getIdade(){
+            return $this->idade;
+        }
+        
+        public function seIdade($idade){
+            $this->idade = $idade;
+        }
+
+
     }
 
-    class Funcionario {
+    class Funcionario extends Pessoa {
                 
+        private $cargo;
+        private $salario;
+
+
+        public function __construct($nome, $idade, $cargo, $salario){
+            parent::__construct($nome, $idade);
+            $this->cargo = $cargo;
+            $this->salario = $salario;
+        }
+
+        public function getCargo(){
+            return $this->cargo;
+        }
+
+        public function getSalario(){
+            return $this->salario;
+        }
+
+        public function getNome(){
+            return "Funcionária ". $this->nome;
+        }
+
     }
 
 

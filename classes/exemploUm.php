@@ -14,11 +14,16 @@
            include_once('exemplosClasses.php');
 
 
-            $p = new Pessoa("Judson Paiva", 10);
-            //$p->setNome('Judson Paiva');
+            $p = new Pessoa("Judson Quissanga", 10);
+            $p->setNome($p->getNome(). ' Paiva');
 
-            echo $p->getNome();
+            $f = new Funcionario("Leonor Paiva", 9, "Administradora", 1000000.0);
 
+
+            echo $p->getNome() . " <br />";
+            echo $f->getNome() . " <br />";
+            echo $f->getIdade() . " <br />";
+            echo $f->getCargo() . " <br />";
 
         ?>
 
