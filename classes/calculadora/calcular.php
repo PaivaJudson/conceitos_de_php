@@ -14,18 +14,18 @@
 
     switch($op){
         case 'somar':
-            $calcular->somar();
+           echo $calcular->somar();
         break;
 
         case 'subtrair':
-            $calcular->subtrair();
+           echo $calcular->subtrair();
         break;
 
         case 'dividir':
-            $calcular->dividir();
+           echo $calcular->dividir();
         break;
         case 'multiplicar':
-            $calcular->multiplicar();
+           echo $calcular->multiplicar();
         break;
         default:
 
