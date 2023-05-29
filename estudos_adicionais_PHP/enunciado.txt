@@ -1,0 +1,36 @@
+Uma empresa de alunos de POO pretende criar um serviço de transporte de passageiros que faça concorrência a um serviço muito conhecido (e que tem um nome muito parecido com UMeR...). Pretende-se que a aplicação a ser desenvolvida dê suporte a toda a funcionalidade que permita que um utilizador realize uma viagem num dos táxis da UMeR. O processo deve abranger todos os mecanismos de criação de utilizadores, motoristas, automóveis e posteriormente a marcação das viagens, a realização das mesmas e respectiva imputação do preço. Pretende-se também que o sistema guarde registo de todas as operações efectuadas e que depois tenha mecanismos para as disponibilizar (exemplo: viagens de um utilizador, extracto de viagens de um taxi num determinado período, valor facturado por um taxi num determinado período, etc.).
+Cada per􏰀l de utilizador deve apenas conseguir aceder às informações e funcionalidades res- pectivas.
+
+
+
+Os clientes dos táxis UTEC poderão:
+solicitar uma viagem ao táxi mais próximo das suas coordenadas;
+solicitar uma viagem a um táxi especí􏰀co;
+fazer uma reserva para um táxi especí􏰀co que, de momento, não está disponível.
+Os motoristas poderão:
+sinalizar que estão disponíveis para serem requisitados; 
+registar uma viagem para um determinado cliente;
+registar o preço que custou determinada viagem.
+
+
+Actores do sistema
+
+Propõe-se a existência de dois tipos distintos de actores no sistema, que partilham a seguinte informação:
+email (que identi􏰀ca o utilizador);
+nome;
+password;
+morada;
+data de nascimento.
+Para além disso, cada actor tem um conjunto de dados especí􏰀cos, como explicado de seguida.
+
+O motorista conduz o táxi e além da informação atrás referida tem também dados relativos a:
+
+grau de cumprimento de horário estabelecido com o cliente, dado por um factor entre 0 e 100;
+classi􏰀cação do motorista, dado numa escala de 0 a 100, calculada com base na classi􏰀cação dada pelo cliente no 􏰀nal da viagem;
+histórico das viagens realizadas; número de kms já realizados na UMeR;
+informação sobre se está ou não disponível em determindado momento, isto é, se está ou não a trabalhar.
+
+
+
+
+
