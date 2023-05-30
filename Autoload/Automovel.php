@@ -1,13 +1,6 @@
 <?php
 
-
-interface Veiculo{
-
-    public function acelerar($velocidade);
-    public function frenar($velocidade);
-    public function mudarMarcha($marcha);
-
-}
+require_once("Veiculo.php");
 
 abstract class Automovel implements Veiculo{
 
@@ -23,20 +16,3 @@ abstract class Automovel implements Veiculo{
         return "mudar marcha ". $marcha . " ";
     }
 }
-
-class Civic extends Automovel{
-
-    public function empurrar(){
-        return "Empurrar ... ";
-    }
-
-}
-
-
-
-$carro = new Civic();
-
-
-echo $carro->acelerar(10);
-echo $carro->frenar(5);
-
