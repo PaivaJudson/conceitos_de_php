@@ -3,14 +3,31 @@
 <?php
 
 $livros = fopen('books.csv', 'r');
+
+$contador = 1;
+
 echo '<table class="table table-striped table-hover">';
+
 while ($linhas = fgets($livros)){
+    
     echo "<tr>";
     $registo = explode(';', $linhas);
-    foreach($registo as $campo){
-        echo "<td>$campo</td>";
+
+    if($contador == 1){
+        echo "<thead>";
+        foreach($registo as $campo){
+            echo "<th scope='col'>". strtoupper($campo) . "</th>";
+        }
+        echo "</thead>";
+    }
+    else
+    {
+        foreach($registo as $campo){
+            echo "<td>$campo</td>";
+        }
     }
     echo "<tr>";
+    $contador++;
 }
 
 echo "</table>";
