@@ -10,4 +10,15 @@ $a = function($m, $k){
 };
 
 
-echo a(20, 30);
+//echo $a(20, 30);
+
+
+(
+    function($n1, $n2){
+        echo $n1 + $n2;
+    }
+)(10, 12);
+
+
+
+
