@@ -20,5 +20,5 @@ $a = function($m, $k){
 )(10, 12);
 
 
-
+$soma = fn($x, $y) => $x + $y;
 
